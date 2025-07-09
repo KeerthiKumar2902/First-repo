@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Colorful Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f8ff; /* Alice Blue */
+            color: #333;
+            text-align: center;
+        }
+        .header {
+            background-color: #ff6347; /* Tomato */
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            background-color: #87ceeb; /* Sky Blue */
+            color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:nth-child(even) {
+            background-color: #ffd700; /* Gold */
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .footer {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #3cb371; /* Medium Sea Green */
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Welcome to My Colorful Page!</h1>
+        <p>A place where colors come to life.</p>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h2>Bright & Cheerful</h2>
+            <p>This card radiates positivity with its vibrant blue hue.</p>
+            <img src="https://via.placeholder.com/200x120/87ceeb/FFFFFF?text=Sky+Blue" alt="Sky Blue image">
+        </div>
+
+        <div class="card">
+            <h2>Golden Glow</h2>
+            <p>Experience the warmth and richness of gold on this card.</p>
+            <img src="https://via.placeholder.com/200x120/ffd700/FFFFFF?text=Golden+Yellow" alt="Golden Yellow image">
+        </div>
+
+        <div class="card">
+            <h2>Nature's Green</h2>
+            <p>A touch of refreshing green, bringing nature closer.</p>
+            <img src="https://via.placeholder.com/200x120/3cb371/FFFFFF?text=Forest+Green" alt="Forest Green image">
+        </div>
+
+        <div class="card">
+            <h2>Sunset Orange</h2>
+            <p>Capturing the beautiful shades of a sunset in this design.</p>
+            <img src="https://via.placeholder.com/200x120/ff8c00/FFFFFF?text=Orange+Sunset" alt="Orange Sunset image">
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Colorful Creations. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
